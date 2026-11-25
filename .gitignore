@@ -1,0 +1,51 @@
+
+# Python environments
+.venv/
+venv/
+env/
+airflow-venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets and Spark outputs
+data/*
+!data/README.md
+output/*
+!output/README.md
+
+# Spark
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Airflow generated files
+airflow/logs/
+airflow/*.db
+airflow/*.log
+
+# Logs
+*.log
+logs/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
