@@ -1,0 +1,14 @@
+[project]
+name = "spark-1"
+version = "0.1.0"
+description = "End-to-end Olist Data Engineering Pipeline using PySpark and Airflow"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pyspark==4.0.5",
+    "delta-spark==4.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.2.0",
+]
